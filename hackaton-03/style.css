@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.inicio-content {
+  margin-bottom: 0;
+}
+
+.inicio-content img {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.text-inicio {
+  color: white;
+  width: 100%;
+  height: 40rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-inicio p {
+  margin-left: 3rem;
+  font-size: 2.3rem;
+  width: max-content;
+  padding: 1.5rem 5rem 1.5rem 1.5rem;
+  background-color: #14afaffd;
+  border-radius: 1rem;
+}
+.text-inicio h1 {
+  padding-right: 2rem;
+  font-size: 3rem;
+  display: flex;
+  align-self: flex-end;
+}
+
+.descripcion {
+  margin-top: -1.6rem;
+  background: #1ebcbc;
+  padding: 0.5rem 5rem;
+}
+.descripcion h3 {
+  color: #075454;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.descripcion p {
+  font-size: 1.2rem;
+  color: #ffffffed;
+  line-height: 2;
+}
+
+.descripcion button {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 4rem;
+  font-size: 1.3rem;
+  color: white;
+  background-color: #ff00ffa4;
+  border: none;
+  border-radius: 1.2rem;
+  box-shadow: 2px 4px 10px #00000080;
+}
+
+.skills {
+  padding: 0.5rem 3rem;
+  background-color: #9545d5;
+}
+.skills-tittle {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.skill-container {
+  padding: 0 2.5rem;
+  width: 100%;
+  display: grid;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 4rem;
+}
+.skill-container p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+progress {
+  width: 80%;
+  height: 1.5rem;
+  border: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #ffffff;
+  border-radius: 10rem;
+}
+
+progress::-webkit-progress-value {
+  background-color: #3bffff;
+  border-radius: 10rem;
+}
+.portafolio {
+  width: 100%;
+  background: #e2e20d;
+}
+.portafolio h3 {
+  color: #075454;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+}
+.trabajos {
+  justify-items: center;
+  display: grid;
+  place-content: center;
+  row-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 4rem;
+}
+.portafolio img {
+  width: 15rem;
+  height: 9rem;
+  object-fit: cover;
+}
+
+.clientes {
+  width: 100%;
+  background: #2a3232;
+}
+.clientes h3 {
+  color: #d5ff74;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.clientes img {
+  width: 10rem;
+  object-fit: cover;
+  margin-bottom: 3rem;
+}
+.logo-client {
+  justify-items: center;
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  flex-wrap: wrap;
+}
+.contacto {
+  width: 100%;
+  background: #3cb3b3;
+}
+
+.contacto h3 {
+  color: #eb1616;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: center;
+}
+.cuestions {
+  display: grid;
+  justify-items: center;
+  padding: 0 15rem;
+  row-gap: 1rem;
+  grid-template-areas:
+    "a b"
+    "c d"
+    "e e";
+}
+input,
+textarea {
+  width: calc(100% - 5rem);
+  color: #000000ac;
+  height: 3rem;
+  border: none;
+}
+
+.desc {
+  resize: none;
+  grid-area: e;
+  height: 10rem;
+}
+.button{
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+.contacto button{
+    margin: 3rem;
+    background: #2a3232;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 1rem 4rem;
+}
